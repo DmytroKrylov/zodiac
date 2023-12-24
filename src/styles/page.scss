@@ -1,0 +1,9 @@
+.page {
+    font-family: 'Merriweather', serif;
+    letter-spacing: .0626em;
+    line-height: 1.5;
+
+    &__body {
+        min-width: 320px;
+    }
+}

@@ -1,0 +1,41 @@
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: url(../img/IMG_0469.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+
+    &__title {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 2.5rem;
+        letter-spacing: .6rem;
+        text-transform: uppercase;
+        color: #212529;
+    }
+
+    &__desc {
+        line-height: 1.2;
+    }
+
+    &__btn__one {
+        background-color: #1e4057;
+        margin-bottom: 0.5rem;
+    }
+
+    &__btn__second {
+        background-color: #885e29;
+    }
+}

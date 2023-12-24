@@ -1,14 +1,109 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en" class="page">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <title>Zodiac Engineering</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="../src/styles/main.scss" />
   </head>
-  <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+  <body class="page__body">
+    <header>
+      <div class="header__container">
+        <div class="header content">
+          <a href="./index.html">Zodiac Engineering</a>
+          <button type="button">Menu</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__content container">
+          <div>
+            <h1 class="hero__title">
+              Zodiac <br />
+              Engineering
+            </h1>
+            <p class="hero__desc">Canadian Armored Vehicle Manufacturer</p>
+          </div>
+          <div>
+            <a class="hero__btn__one btn" href="">Learn More</a>
+            <a class="hero__btn__second btn" href="">Our Latest Project</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="video">
+            <div class="video__content">
+                <iframe
+                  width="100%"
+                  height="500"
+                  src="https://www.youtube.com/embed/gmf-uy7zQqo"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen=""
+                ></iframe>
+                <iframe
+                  width="100%"
+                  height="500"
+                  src="https://www.youtube.com/embed/0s8_ucJ2sNc"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen=""
+                ></iframe>
+            </div>
+      </section>
+
+      <section class="about">
+        <div class="container">
+          <h2 class="about__title">About Us</h2>
+          <p class="about__desc">
+            Zodiac Engineering is a manufacturer of various types of special
+            armored vehicles. We supply our products all over the world. To
+            government agencies, private security companies, and individuals.
+          </p>
+        </div>
+      </section>
+
+      <section class="brochure">
+        <div class="brochure__content container">
+          <img class="brochure__img" src="./img/zodiaclogowhite.png" alt="zodiac-brochure">
+          <div class="brochure__wrapper">
+            <h2 class="brochure__title">Please take a look at our brochure!</h2>
+            <p class="brochure__desc">
+							If you want to learn more about our company, our products and
+							services, take a look at the brochure provided. It is available below in English.
+						</p>
+            <a class="brochure__link" href="https://www.dropbox.com/s/zwb3szsv3kssuej/Full%20April2021%20%281%29.pdf?dl=0" target="_blank">ENG PDF</a>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="partners">
+        <div class="partners__content">
+          <h2 class="partners__title">Our Partners</h2>
+          <div class="partners__logo">
+            <img class="partners__icon" src="./img/1.jpg" alt="partner logo">
+            <img class="partners__icon" src="./img/2.jpg" alt="partner logo">
+            <img class="partners__icon" src="./img/3.jpg" alt="partner logo">
+            <img class="partners__icon" src="./img/5.png" alt="partner logo">
+            <img class="partners__icon" src="./img/6.jpg" alt="partner logo">
+            <img class="partners__icon" src="./img/7.jpg" alt="partner logo">
+            <img class="partners__icon" src="./img/8.jpg" alt="partner logo">
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

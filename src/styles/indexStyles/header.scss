@@ -1,0 +1,24 @@
+.header {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    font-size: 1.25rem;
+    color: #161616;
+    font-weight: 700;
+  }
+
+  &__button {
+    font-size: 80%;
+    padding: 0.75rem;
+    color: #1e4057;
+    border: 1px solid #1e4057;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    line-height: 1;
+    cursor: pointer;
+  }
+}

@@ -1,14 +1,15 @@
 .partners {
     &__content {
         @include contentPaddingInline;
-        padding-block: 15px;
+        // padding-block: 15px;
     }
 
     &__title {
-        font-size: 4.5rem;
+        font-size: 3rem;
         font-weight: 400;
         line-height: 1.2;
         text-align: center;
+        margin-bottom: 35px;
     }
 
     &__logo {
@@ -17,7 +18,8 @@
         gap: 20px;
         justify-content: center;
 
-
+        width: 90%;
+        margin: 0 auto;
     }
 
     &__icon {

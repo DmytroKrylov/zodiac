@@ -2,8 +2,13 @@
     font-family: 'Merriweather', serif;
     letter-spacing: .0626em;
     line-height: 1.5;
+    scroll-behavior: smooth;
 
     &__body {
         min-width: 320px;
     }
+}
+
+a {
+  color: #212529;
 }

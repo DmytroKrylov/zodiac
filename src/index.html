@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -17,11 +17,11 @@
     <link rel="stylesheet" href="../src/styles/main.scss" />
   </head>
   <body class="page__body">
-    <header>
-      <div class="header__container">
-        <div class="header content">
-          <a href="./index.html">Zodiac Engineering</a>
-          <button type="button">Menu</button>
+    <header class="header">
+      <div class="header__container container">
+        <div class="header__content">
+          <a class="header__logo" href="./index.html">Zodiac Engineering</a>
+          <button class="header__button" type="button">Menu</button>
         </div>
       </div>
     </header>
@@ -37,7 +37,7 @@
             <p class="hero__desc">Canadian Armored Vehicle Manufacturer</p>
           </div>
           <div>
-            <a class="hero__btn__one btn" href="">Learn More</a>
+            <a class="hero__btn__one btn" href="#about">Learn More</a>
             <a class="hero__btn__second btn" href="">Our Latest Project</a>
           </div>
         </div>
@@ -64,7 +64,7 @@
             </div>
       </section>
 
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <h2 class="about__title">About Us</h2>
           <p class="about__desc">
@@ -104,6 +104,39 @@
           </div>
         </div>
       </section>
+
+      <footer class="footer">
+        <div class="footer__content container">
+          <div class="footer__card">
+            <div class="footer__item">
+              <h3 class="footer__title">Adress</h3>
+              <hr class="footer__line">
+              <p>98 Healey Rd, Bolton, ON. L7E 5A7, Canada.</p>
+            </div>
+          </div>
+          <div class="footer__card">
+            <div class="footer__item">
+              <h3 class="footer__title">Adress</h3>
+              <hr class="footer__line">
+              <a class="footer__a" href="mailto:info@zodiacengineering.ca">info@zodiacengineering.ca</a>
+            </div>
+          </div>
+          <div class="footer__card">
+            <div class="footer__item">
+              <h3 class="footer__title">Adress</h3>
+              <hr class="footer__line">
+              <a class="footer__a" href="tel:6479956255">647-995-6255</a>
+            </div>
+          </div>
+          <div class="footer__card">
+            <div class="footer__item">
+              <h3 class="footer__title">Adress</h3>
+              <hr class="footer__line">
+              <a class="footer__a" href="tel:4167121241">416-712-1241</a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

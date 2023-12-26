@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zodiac Engineering</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,10 +22,32 @@
       <div class="header__container container">
         <div class="header__content">
           <a class="header__logo" href="./index.html">Zodiac Engineering</a>
-          <button class="header__button" type="button">Menu</button>
+          <a class="header__button" href="#menu">Menu
+            <i class="header__icon"></i>
+          </a>
         </div>
       </div>
     </header>
+
+    <aside class="page__menu menu" id="menu">
+      <div class="menu__container container">
+        <div class="menu__top">
+          <a class="header__logo" href="./index.html">
+            Zodiac Engineering
+          </a>
+          <a class="menu__btn" href="#"><i class="menu__close"></i></a>
+        </div>
+        <div class="menu__content">
+          <nav class="menu__list">
+            <ul class="menu__items">
+              <li><a class="menu__link" href="./index.html">Home</a></li>
+              <li><a class="menu__link" href="#">Gallery</a></li>
+              <li><a class="menu__link" href="./contacts.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </aside>
 
     <main>
       <section class="hero">
@@ -116,24 +139,28 @@
           </div>
           <div class="footer__card">
             <div class="footer__item">
-              <h3 class="footer__title">Adress</h3>
+              <h3 class="footer__title">Email</h3>
               <hr class="footer__line">
               <a class="footer__a" href="mailto:info@zodiacengineering.ca">info@zodiacengineering.ca</a>
             </div>
           </div>
           <div class="footer__card">
             <div class="footer__item">
-              <h3 class="footer__title">Adress</h3>
+              <h3 class="footer__title">Phone</h3>
               <hr class="footer__line">
               <a class="footer__a" href="tel:6479956255">647-995-6255</a>
             </div>
           </div>
           <div class="footer__card">
             <div class="footer__item">
-              <h3 class="footer__title">Adress</h3>
+              <h3 class="footer__title">Phone</h3>
               <hr class="footer__line">
               <a class="footer__a" href="tel:4167121241">416-712-1241</a>
             </div>
+          </div>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/zodiac_engineering/"><i class="footer__insta"></i></a>
+            <a href="https://www.facebook.com/people/Zodiac-Engineering/100064321681099/"><i class="footer__fb"></i></a>
           </div>
         </div>
       </footer>

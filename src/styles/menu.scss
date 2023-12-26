@@ -1,0 +1,45 @@
+.menu {
+  height: 25vh;
+  z-index: 1;
+
+  overflow: auto; /* to scroll the menu if needed */
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__content {
+    padding-top: 25px;
+  }
+
+  &__close::before {
+    content: '\f00d';
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+  }
+
+  &__btn {
+    padding: 0.3rem;
+    border: 1px solid #1e4057;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  &__link {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(0,0,0,.5);
+  }
+}

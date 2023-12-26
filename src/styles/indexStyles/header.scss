@@ -5,13 +5,23 @@
     align-items: center;
   }
 
+  &__icon::before {
+    content: "\f0c9";
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+  }
+
   &__logo {
     font-size: 1.25rem;
     color: #161616;
     font-weight: 700;
+    text-wrap: nowrap;
   }
 
   &__button {
+    display: flex;
+    gap: 5px;
     font-size: 80%;
     padding: 0.75rem;
     color: #1e4057;

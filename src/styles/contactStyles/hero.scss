@@ -1,0 +1,31 @@
+.contact {
+  &__hero {
+    background: rgba(0, 0, 0, 0.9);
+    background-image: url(../img/map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 10px;
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: black;
+  }
+
+  &__desc {
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+}

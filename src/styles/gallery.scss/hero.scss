@@ -21,6 +21,13 @@
     }
   }
 
+  &__content {
+    @include onTablet {
+        margin-left: 7rem;
+    }
+  }
+
+
   &__title {
     position: relative;
     z-index: 1;
@@ -33,6 +40,11 @@
     -webkit-background-clip: text;
     font-weight: 500;
     margin-bottom: 10px;
+
+    @include onTablet {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
   }
 
   &__desc {
@@ -42,6 +54,12 @@
     background: -webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,.4));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+
+    @include onTablet {
+      font-size: 4rem;
+      font-size: 2rem;
+      max-width: 30rem;
+    }
   }
 }
 

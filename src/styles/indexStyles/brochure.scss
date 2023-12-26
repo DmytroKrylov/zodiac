@@ -5,6 +5,7 @@
     &__content {
         padding-block: 3rem;
         text-align: center;
+        align-items: center;
 
         @include onTablet {
           display: flex;

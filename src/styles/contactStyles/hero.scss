@@ -17,6 +17,12 @@
     text-align: center;
     row-gap: 10px;
     margin-bottom: 30px;
+
+    @include onTablet {
+      width: 50%;
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
   }
 
   &__title {
@@ -38,6 +44,11 @@
   display: grid;
   row-gap: 16px;
   margin-bottom: 48px;
+
+  @include onTablet {
+    width: 50%;
+    margin: 0 auto;
+  }
 
   &__button {
     font-family: Merriweather, serif;
@@ -76,16 +87,18 @@
       width: 50%;
       justify-self: center;
       text-transform: uppercase;
+
+      @include onTablet {
+        width: 30%;
+      }
     }
 
     &:hover {
       border: 1px solid #d5d7de;
-      color: #292929;
       box-shadow: 1px 4px 16px 0 #e8e8f066;
     }
 
     &:focus {
-      color: #292929;
       box-shadow: 1px 4px 16px 0 #e8e8f0a3;
     }
   }

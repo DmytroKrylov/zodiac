@@ -17,5 +17,23 @@
         font-size: 1.6rem;
         text-align: center;
         color: #212529;
+
+        @include onTablet {
+          padding-left: 25%;
+          padding-right: 25%;
+        }
+    }
+
+    &__fulldesc {
+      font-size: 1.6rem;
+      text-align: center;
+      color: #212529;
+      display: none;
+
+      @include onTablet {
+        display: block;
+        padding-left: 25%;
+        padding-right: 25%;
+      }
     }
 }

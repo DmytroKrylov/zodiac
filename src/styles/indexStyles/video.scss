@@ -3,6 +3,9 @@
 
     &__content {
         line-height: 0;
-        width: 80%;
+
+        @include onTablet {
+          width: 80%;
+        }
     }
 }

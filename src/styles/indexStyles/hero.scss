@@ -24,6 +24,11 @@
         letter-spacing: .6rem;
         text-transform: uppercase;
         color: #212529;
+
+        @include onTablet {
+          font-size: 4rem;
+          line-height: 4rem;
+        }
     }
 
     &__desc {

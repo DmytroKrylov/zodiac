@@ -4,11 +4,21 @@
 
     &__content {
         padding-block: 3rem;
+        text-align: center;
+
+        @include onTablet {
+          display: flex;
+          gap: 15px;
+        }
     }
 
     &__img {
         max-width: 100%;
         margin-bottom: 20px;
+
+        @include onTablet {
+          margin-top: 20px;
+        }
     }
 
     &__wrapper {

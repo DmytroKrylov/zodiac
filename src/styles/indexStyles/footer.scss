@@ -6,6 +6,13 @@
     flex-direction: column;
     row-gap: 15px;
     align-items: center;
+
+    @include onTablet {
+      flex-wrap: wrap;
+      flex-direction: row;
+      gap: 15px;
+      justify-content: center;
+    }
   }
 
   &__card {
@@ -20,6 +27,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    @include onTablet {
+      width: 45%;
+    }
   }
 
   &__title {
@@ -39,6 +50,7 @@
   &__social {
     display: flex;
     gap: 20px;
+    justify-content: center;
   }
 
   &__insta::before {

@@ -1,4 +1,16 @@
 .header {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  // @include onDesktop {
+  //   background-color: transparent;
+  //   display: none;
+  // }
+
+
   &__content {
     display: flex;
     justify-content: space-between;

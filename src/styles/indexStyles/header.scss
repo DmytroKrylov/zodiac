@@ -5,16 +5,37 @@
   left: 0;
   right: 0;
 
-  // @include onDesktop {
-  //   background-color: transparent;
-  //   display: none;
-  // }
+
+  &__menu {
+    display: none;
+
+    @include onDesktop {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      z-index: 3;
+    }
+  }
+
+  &__link {
+    font-size: 1.3rem;
+  }
 
 
   &__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @include onDesktop {
+      display: none;
+    }
+  }
+
+  &__items {
+    display: flex;
+    gap: 100px;
   }
 
   &__icon::before {
